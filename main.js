@@ -1,3 +1,4 @@
+import Hello from "./Hello"
 /**
  * Membuat component Main.
  * Component Main menampung konten utama.
