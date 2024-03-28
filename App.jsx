@@ -1,9 +1,6 @@
-import './App.css'
-import App from "./Components/App"
-import Hello from "./Components/Hello"
-import footer from "./Components/footer"
-import header from "./Components/header"
-import main from "./Components/main"
+import Footer from "./Components/footer";
+import Header from "./Components/header";
+import Main from "./Components/main";
 
 /**
  * membuat component app
@@ -12,9 +9,9 @@ import main from "./Components/main"
 function App() {
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
     </div>
   );
 }
